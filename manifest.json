@@ -1,0 +1,9 @@
+{
+    "manifest_version" : 3,
+    "version" : "1.1",
+    "name" : "LinkMarks",
+    "action" : {
+        "default_popup" : "PRO-2.html",
+        "default_icon" : "list.png"
+    }
+}

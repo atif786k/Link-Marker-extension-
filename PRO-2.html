@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkMarks</title>
+    <style>
+        #input-txt {
+            margin: auto;
+            min-width: 13vw;
+            padding: 6px 5px;
+            border: 2px solid orange;
+            background-color: orange;
+            color: black;
+            border-radius: 10px;
+            font-weight: bolder;
+            font-size: 14px;
+            display: block;
+        }
+
+        .main{  
+            /* width: 14vw; */
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        #save-input {
+            margin-top: 5px;
+            margin-right: 2px;
+            padding: 6px 31px;
+            color: aqua;
+            background-color: orange;
+            border: 2px solid orange;
+            border-radius: 10px;
+            font-weight: bolder;
+        }
+
+        #delete-in{
+            margin-top: 5px;
+            margin-left: 2px;
+            padding: 6px 21px;
+            color: aqua;
+            background-color: orange;
+            border: 2px solid orange;
+            border-radius: 10px;
+            font-weight: bolder;
+        }
+
+        #save-input:hover {
+            background-color: aqua;
+            color: orange;
+            border: 2px solid aqua;
+        }
+
+        #delete-in:hover{
+            background-color: aqua;
+            color: orange;
+            border: 2px solid aqua;
+        }
+
+        #show-el {
+            margin-top: 3vh;
+            font-weight: lighter;
+            font-size: large;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-style: italic;
+        }
+
+        ul {
+            padding-left: 22px;
+        }
+        li{
+            color: orange;
+        }
+        a{
+            color: rgb(55, 198, 198);
+        }
+    </style>
+</head>
+
+<body>
+    </a>
+    <input type="text" id="input-txt" placeholder=" type...">
+    <div class="main">
+        <button id="save-input">SAVE</button>
+        <button id="delete-in">DELETE</button>
+    </div>
+    <div id="show-el">
+        <ul id="el">
+        </ul>
+    </div>
+    <script src="PRO-2.js"></script>
+</body>
+
+</html>
